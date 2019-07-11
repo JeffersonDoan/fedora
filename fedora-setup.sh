@@ -6,7 +6,6 @@ cd ~
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/bashrc.aliases
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.flatpak
 # wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
-https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh
 
 # Install Fedora Workstation repository
 ## sudo dnf install fedora-workstation-repositories -y
@@ -15,7 +14,7 @@ https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_upd
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Install Flathub repository
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Update cache for package installs
 sudo dnf makecache
@@ -27,7 +26,7 @@ sudo dnf install https://www.dropbox.com/download?dl=packages/fedora/nautilus-dr
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
 # Install Joplin
-wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash -y
+wget https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh && sudo chmod +x Joplin_install_and_update.sh && ./Joplin_install_and_update.sh
 
 # Install packages from fedora.packages
 # sudo dnf install $(cat ~/fedora.packages) -y
