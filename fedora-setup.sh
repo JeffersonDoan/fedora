@@ -19,9 +19,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # Update cache for package installs
 sudo dnf makecache
 
-# Install Dropbox
-sudo dnf install https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2019.02.14-1.fedora.x86_64.rpm -y
-
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
