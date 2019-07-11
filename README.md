@@ -7,7 +7,7 @@ Enter the following command in the terminal to run the script:
 
 This script will:
 1. Install repositories (RPMFusion, Flathub)
-2. Install Dropbox, Teamviewer, and Kdenlive via RPM packages
+2. Install Dropbox and Teamviewer via RPM packages
 3. Install Joplin via shell script
 4. Install packages via DNF
 5. Install Flatpaks
