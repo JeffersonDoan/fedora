@@ -6,12 +6,13 @@ cd ~
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/bashrc.aliases
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.flatpak
 # wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
+https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh
 
 # Install Fedora Workstation repository
 ## sudo dnf install fedora-workstation-repositories -y
 
 # Install RPMFusion repositories
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Install Flathub repository
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
@@ -41,6 +42,6 @@ cat ~/bashrc.aliases >> ~/.bashrc
 sudo sed -i '/WaylandEnable/s/^#//g' /etc/gdm/custom.conf
 
 # Install NVIDIA driver
-sudo dnf install xorg-x11-drv-nvidia akmod-nvidia
-sudo dnf install xorg-x11-drv-nvidia-cuda
+sudo dnf install xorg-x11-drv-nvidia akmod-nvidia -y
+sudo dnf install xorg-x11-drv-nvidia-cuda -y
 sudo dnf update -y
