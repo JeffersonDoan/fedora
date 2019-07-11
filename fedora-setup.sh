@@ -3,7 +3,7 @@
 cd ~
 
 # Retrieve data for the setup script
-wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/bashrc.aliases
+#wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/bashrc.aliases
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.flatpak
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
 
@@ -32,7 +32,7 @@ sudo dnf install $(cat ~/fedora.packages) -y
 flatpak install flathub $(cat ~/fedora.flatpak) -y
 
 # Custom shell prompt with aliases - source: https://www.linuxquestions.org/questions/linux-general-1/ultimate-prompt-and-bashrc-file-4175518169/
-cat ~/bashrc.aliases >> ~/.bashrc
+#cat ~/bashrc.aliases >> ~/.bashrc
 
 # Disable Wayland and use Xorg
 sudo sed -i '/WaylandEnable/s/^#//g' /etc/gdm/custom.conf
