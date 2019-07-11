@@ -25,9 +25,6 @@ sudo dnf install https://www.dropbox.com/download?dl=packages/fedora/nautilus-dr
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
-# Install Kdenlive
-sudo dnf install https://unitedrpms.sourceforge.io/x86_64/kdenlive-19.04.2-7.fc29.x86_64.rpm -y
-
 # Install Joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash -y
 
