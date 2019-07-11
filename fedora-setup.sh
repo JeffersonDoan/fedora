@@ -5,7 +5,7 @@ cd ~
 # Retrieve data for the setup script
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/bashrc.aliases
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.flatpak
-# wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
+wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
 
 # Install Fedora Workstation repository
 ## sudo dnf install fedora-workstation-repositories -y
@@ -26,7 +26,7 @@ sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_6
 wget https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh && sudo chmod +x Joplin_install_and_update.sh && ./Joplin_install_and_update.sh
 
 # Install packages from fedora.packages
-# sudo dnf install $(cat ~/fedora.packages) -y
+sudo dnf install $(cat ~/fedora.packages) -y
 
 # Install Flatpaks from fedora.flatpak
 flatpak install flathub $(cat ~/fedora.flatpak) -y
