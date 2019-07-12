@@ -11,5 +11,5 @@ This script will:
 3. Install Joplin via shell script
 4. Install packages via DNF
 5. Install Flatpaks
-7. Disable Wayland and use Xorg for Graphics
-8. Install NVIDIA driver
+6. Disable Wayland and use Xorg for Graphics
+7. Install NVIDIA driver
