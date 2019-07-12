@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.
 wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora.packages
 
 # Install Fedora Workstation repository
-#sudo dnf install fedora-workstation-repositories -y
+sudo dnf install fedora-workstation-repositories -y
 
 # Install RPMFusion repositories
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
