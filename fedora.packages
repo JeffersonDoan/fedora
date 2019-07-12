@@ -21,3 +21,13 @@ nano
 neofetch
 patch
 shutter
+gstreamer1-plugins-base
+gstreamer1-plugins-good
+gstreamer1-plugins-bad-free
+gstreamer1-plugins-bad-free-extras
+gstreamer1-plugins-good-extras
+libdvdread
+libdvdnav
+lsdvd
+p7zip
+p7zip-plugins
