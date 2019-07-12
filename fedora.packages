@@ -1,3 +1,4 @@
+akmod-nvidia
 autoconf
 automake
 binutils
@@ -40,3 +41,6 @@ p7zip
 p7zip-plugins
 patch
 shutter
+xorg-x11-drv-nvidia
+xorg-x11-drv-nvidia-cuda
+xorg-x11-drv-nvidia-libs.i686
