@@ -38,6 +38,5 @@ flatpak install flathub $(cat ~/fedora.flatpaks) -y
 sudo sed -i '/WaylandEnable/s/^#//g' /etc/gdm/custom.conf
 
 # Install NVIDIA driver
-sudo dnf install xorg-x11-drv-nvidia akmod-nvidia -y
-sudo dnf install xorg-x11-drv-nvidia-cuda -y
+sudo dnf install xorg-x11-drv-nvidia akmod-nvidia xorg-x11-drv-nvidia-cuda xorg-x11-drv-nvidia-libs.i686 -y
 sudo dnf update -y
