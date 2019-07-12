@@ -9,7 +9,7 @@ This script will:
 1. Install repositories (RPMFusion, Flathub)
 2. Install Teamviewer via RPM package
 3. Install Joplin via shell script
-4. Install packages via DNF
+4. Install packages via DNF (including NVIDIA driver)
 5. Install Flatpaks
 6. Disable Wayland and use Xorg for Graphics
-7. Install NVIDIA driver
+7. Update the rest of the system packages
