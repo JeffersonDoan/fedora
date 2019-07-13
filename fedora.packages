@@ -6,6 +6,7 @@ clang
 cmake
 compat-ffmpeg28
 ctags
+discord
 dkms
 dropbox
 ffmpeg
@@ -38,9 +39,11 @@ make
 mc
 nano
 neofetch
+obs-studio
 p7zip
 p7zip-plugins
 patch
+qbittorrent
 shutter
 steam
 vlc
