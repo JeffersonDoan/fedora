@@ -1,9 +1,9 @@
-# fedora-setup
+# Fedora Setup
 Setup script for Fedora
 
 Enter the following command in the terminal to run the script:
 
-`wget https://raw.githubusercontent.com/JeffersonDoan/fedora-setup/master/fedora-setup.sh && sudo chmod +x fedora-setup.sh && ./fedora-setup.sh`
+`wget https://raw.githubusercontent.com/JeffersonDoan/fedora/master/setup.sh && sudo chmod +x setup.sh && ./setup.sh`
 
 This script will:
 1. Install repositories (Fedora Workstation, RPMFusion, Flathub)
